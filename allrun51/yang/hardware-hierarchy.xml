@@ -1,0 +1,62 @@
+<hardware xmlns="urn:ietf:params:xml:ns:yang:ietf-hardware">
+  <component>
+    <name>ai-node-1-nic</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>ai-node-1</parent>
+  </component>
+  <component>
+    <name>linecard-1</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>router-A</parent>
+  </component>
+  <component>
+    <name>linecard-2</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>router-A</parent>
+  </component>
+  <component>
+    <name>switchable-port</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>router-B</parent>
+  </component>
+  <component>
+    <name>pdu-outlet-1</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>pdu-1</parent>
+  </component>
+  <component>
+    <name>poe-port-ap1</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>poe-switch</parent>
+  </component>
+  <component>
+    <name>ap-baseband</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>ap-1</parent>
+  </component>
+  <component>
+    <name>ap-radio-24</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>ap-baseband</parent>
+  </component>
+  <component>
+    <name>ap-radio-5</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>ap-baseband</parent>
+  </component>
+  <component>
+    <name>radar-sensor-1</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>roadside-unit-1</parent>
+  </component>
+  <component>
+    <name>isac-transceiver-1</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>roadside-unit-1</parent>
+  </component>
+  <component>
+    <name>switch-fabric</name>
+    <class xmlns:iana="urn:ietf:params:xml:ns:yang:iana-hardware">iana:energy-object</class>
+    <parent>router-A</parent>
+  </component>
+</hardware>

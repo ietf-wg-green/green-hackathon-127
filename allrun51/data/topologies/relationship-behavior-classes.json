@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "relationship_type_classes": {
+    "enabling": "stable-structural",
+    "enabled-by": "stable-structural",
+    "aggregating": "stable-structural",
+    "aggregated-by": "stable-structural",
+    "powering": "physical-dynamic",
+    "powered-by": "physical-dynamic",
+    "metering": "knowledge-observability",
+    "metered-by": "knowledge-observability"
+  }
+}

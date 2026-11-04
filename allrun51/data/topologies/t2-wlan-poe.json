@@ -1,0 +1,6 @@
+{
+  "topology_id": "T2-wlan-poe",
+  "name": "WLAN and PoE",
+  "device_ids": ["wlan-1", "wlan-2"],
+  "relationship_profiles": ["wlan"]
+}

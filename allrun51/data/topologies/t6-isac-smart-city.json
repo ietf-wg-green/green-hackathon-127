@@ -1,0 +1,6 @@
+{
+  "topology_id": "T6-isac-smart-city",
+  "name": "ISAC and smart city",
+  "device_ids": ["smart-city-controller", "smart-city-site-1"],
+  "relationship_profiles": ["isac"]
+}

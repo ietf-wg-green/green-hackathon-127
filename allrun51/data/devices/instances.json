@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "device_instances": [
+    {"device_id": "access-domain-controller", "name": "Access domain controller", "archetype_id": "service-appliance"},
+    {"device_id": "ai-training-cluster", "name": "AI training cluster", "archetype_id": "compute-node"},
+    {"device_id": "ai-training-node-1", "name": "AI training node 1", "archetype_id": "compute-node"},
+    {"device_id": "ai-training-node-2", "name": "AI training node 2", "archetype_id": "compute-node"},
+    {"device_id": "core-domain-controller", "name": "Core domain controller", "archetype_id": "service-appliance"},
+    {"device_id": "cross-domain-controller", "name": "Cross-domain controller", "archetype_id": "service-appliance"},
+    {"device_id": "legacy-device-1", "name": "Legacy metered device", "archetype_id": "power-system"},
+    {"device_id": "microwave-site-1", "name": "Microwave site 1", "archetype_id": "wireless-transport"},
+    {"device_id": "multilayer-controller", "name": "Multilayer controller", "archetype_id": "service-appliance"},
+    {"device_id": "network-controller", "name": "Network management controller", "archetype_id": "service-appliance"},
+    {"device_id": "pdu-1", "name": "PDU and metering system", "archetype_id": "power-system"},
+    {"device_id": "power-backup", "name": "Backup power source", "archetype_id": "power-system"},
+    {"device_id": "power-grid", "name": "Grid power source", "archetype_id": "power-system"},
+    {"device_id": "router-A", "name": "Router A", "archetype_id": "fixed-router"},
+    {"device_id": "router-B", "name": "Router B", "archetype_id": "fixed-router"},
+    {"device_id": "router-C", "name": "Router C", "archetype_id": "fixed-router"},
+    {"device_id": "smart-city-controller", "name": "Smart city controller", "archetype_id": "service-appliance"},
+    {"device_id": "smart-city-site-1", "name": "Smart city roadside site 1", "archetype_id": "isac-roadside-unit"},
+    {"device_id": "transport-domain-controller", "name": "Transport domain controller", "archetype_id": "service-appliance"},
+    {"device_id": "transport-site-1", "name": "Transport site 1", "archetype_id": "wireless-transport"},
+    {"device_id": "video-service", "name": "Video service", "archetype_id": "service-appliance"},
+    {"device_id": "wlan-1", "name": "WLAN access system 1", "archetype_id": "wlan-access"},
+    {"device_id": "wlan-2", "name": "WLAN access point 2", "archetype_id": "wlan-access"}
+  ]
+}

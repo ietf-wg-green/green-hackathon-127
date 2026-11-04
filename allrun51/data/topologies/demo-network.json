@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "network_id": "DEMO-NETWORK-1",
+  "subtopologies": [
+    "T1-fixed-network",
+    "T2-wlan-poe",
+    "T3-power-infrastructure",
+    "T4-wireless-transport",
+    "T5-edge-compute",
+    "T6-isac-smart-city"
+  ]
+}

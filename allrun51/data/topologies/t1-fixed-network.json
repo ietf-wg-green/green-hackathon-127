@@ -1,0 +1,6 @@
+{
+  "topology_id": "T1-fixed-network",
+  "name": "Fixed network",
+  "device_ids": ["router-A", "router-B", "router-C"],
+  "relationship_profiles": ["uc10", "network-management"]
+}
