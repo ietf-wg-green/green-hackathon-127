@@ -1,0 +1,6 @@
+{
+  "topology_id": "T4-wireless-transport",
+  "name": "Wireless transport",
+  "device_ids": ["microwave-site-1", "transport-site-1", "multilayer-controller", "router-A"],
+  "relationship_profiles": ["cross-layer"]
+}

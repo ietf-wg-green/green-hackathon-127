@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "scenarios": [
+    {"uc": "UC 2.1", "primary": ["T1-fixed-network"], "secondary": []},
+    {"uc": "UC 2.2", "primary": ["T1-fixed-network"], "secondary": ["T2-wlan-poe"]},
+    {"uc": "UC 2.5", "primary": ["T2-wlan-poe"], "secondary": ["T3-power-infrastructure"]},
+    {"uc": "UC 2.6", "primary": ["T1-fixed-network", "T5-edge-compute"], "secondary": ["T6-isac-smart-city"]},
+    {"uc": "UC 2.7", "primary": ["T4-wireless-transport"], "secondary": []},
+    {"uc": "UC 2.8", "primary": ["T5-edge-compute"], "secondary": ["T1-fixed-network"]},
+    {"uc": "UC 2.9", "primary": ["T2-wlan-poe"], "secondary": ["T3-power-infrastructure"]},
+    {"uc": "UC 2.10", "primary": ["T1-fixed-network"], "secondary": []},
+    {"uc": "UC 2.11", "primary": ["T1-fixed-network", "T2-wlan-poe", "T3-power-infrastructure", "T4-wireless-transport", "T5-edge-compute", "T6-isac-smart-city"], "secondary": []},
+    {"uc": "UC 2.12", "primary": ["T6-isac-smart-city"], "secondary": ["T4-wireless-transport"]},
+    {"uc": "UC 2.13", "primary": ["T5-edge-compute"], "secondary": ["T3-power-infrastructure"]},
+    {"uc": "UC 2.14", "primary": ["T3-power-infrastructure"], "secondary": ["T1-fixed-network", "T2-wlan-poe"]},
+    {"uc": "UC 2.15", "primary": ["T5-edge-compute"], "secondary": ["T1-fixed-network"]},
+    {"uc": "UC 2.16", "primary": ["T1-fixed-network"], "secondary": ["T4-wireless-transport"]}
+  ],
+  "event_overlay_source": "green.catalog.EventSpec; each spec contains only state, measurement, metadata, and relationship-profile deltas"
+}

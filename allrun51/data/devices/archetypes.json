@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "archetypes": [
+    {
+      "archetype_id": "fixed-router",
+      "name": "Fixed-network router",
+      "component_roles": ["chassis", "switch-fabric", "linecard", "port"]
+    },
+    {
+      "archetype_id": "wlan-access",
+      "name": "WLAN and PoE access system",
+      "component_roles": ["poe-switch", "poe-port", "access-point", "baseband", "radio"]
+    },
+    {
+      "archetype_id": "power-system",
+      "name": "Power infrastructure and metering endpoint",
+      "component_roles": ["grid-source", "battery", "pdu", "outlet", "metered-load"]
+    },
+    {
+      "archetype_id": "wireless-transport",
+      "name": "Wireless transport system",
+      "component_roles": ["wireless-link", "transport-module", "underlay", "ip-function"]
+    },
+    {
+      "archetype_id": "compute-node",
+      "name": "Compute node or cluster",
+      "component_roles": ["server", "server-nic", "ai-node", "fabric", "cluster-aggregator"]
+    },
+    {
+      "archetype_id": "service-appliance",
+      "name": "Media service or logical controller",
+      "component_roles": ["video-origin", "cache", "domain-aggregator", "controller"]
+    },
+    {
+      "archetype_id": "isac-roadside-unit",
+      "name": "ISAC roadside unit",
+      "component_roles": ["roadside-unit", "radar-sensor", "transceiver"]
+    }
+  ]
+}

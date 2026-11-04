@@ -1,0 +1,6 @@
+{
+  "topology_id": "T3-power-infrastructure",
+  "name": "Power infrastructure",
+  "device_ids": ["pdu-1", "legacy-device-1", "power-grid", "power-backup", "router-A", "router-B"],
+  "relationship_profiles": ["pdu-indirect", "grid-source", "battery-source", "uc13-full", "uc13-partial"]
+}

@@ -1,0 +1,6 @@
+{
+  "topology_id": "T5-edge-compute",
+  "name": "Edge and compute",
+  "device_ids": ["pdu-1", "cross-domain-controller", "access-domain-controller", "transport-domain-controller", "core-domain-controller", "network-controller", "video-service", "ai-training-cluster", "ai-training-node-1", "ai-training-node-2"],
+  "relationship_profiles": ["cross-domain", "network-management", "uc10", "uc13-full", "uc13-partial"]
+}

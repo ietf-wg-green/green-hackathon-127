@@ -1,0 +1,68 @@
+{
+  "ietf-power-and-energy:energy-objects": {
+    "energy-object": [
+      {
+        "id": "eo-upstream-meter",
+        "source-component-id": "upstream-meter",
+        "energy": {
+          "total-energy-consumed": "890"
+        },
+        "relationship": [
+          {
+            "type": "ietf-power-and-energy:metering",
+            "peer": [
+              {
+                "id": "eo-server-a",
+                "details": "explicit-demo-topology"
+              },
+              {
+                "id": "eo-server-b",
+                "details": "explicit-demo-topology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "eo-server-a",
+        "source-component-id": "server-A",
+        "energy": {
+          "total-energy-consumed": "390"
+        },
+        "power-state": {
+          "oper": "ietf-power-and-energy:power-state-on"
+        }
+      },
+      {
+        "id": "eo-server-b",
+        "source-component-id": "server-B",
+        "energy": {
+          "total-energy-consumed": "500"
+        },
+        "power-state": {
+          "oper": "ietf-power-and-energy:power-state-on"
+        }
+      },
+      {
+        "id": "eo-router-a",
+        "source-component-id": "router-A"
+      },
+      {
+        "id": "eo-router-a-linecard-1",
+        "source-component-id": "linecard-1"
+      },
+      {
+        "id": "eo-router-a-linecard-2",
+        "source-component-id": "linecard-2"
+      },
+      {
+        "id": "eo-router-b",
+        "source-component-id": "router-B"
+      },
+      {
+        "id": "eo-router-b-switchable-port",
+        "source-component-id": "switchable-port"
+      }
+    ]
+  }
+}

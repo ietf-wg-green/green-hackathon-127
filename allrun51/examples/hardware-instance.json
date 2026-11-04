@@ -1,0 +1,46 @@
+{
+  "ietf-hardware:hardware": {
+    "component": [
+      {
+        "name": "upstream-meter",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000001"
+      },
+      {
+        "name": "server-A",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000002"
+      },
+      {
+        "name": "server-B",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000003"
+      },
+      {
+        "name": "router-A",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000010"
+      },
+      {
+        "name": "linecard-1",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000011"
+      },
+      {
+        "name": "linecard-2",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000012"
+      },
+      {
+        "name": "router-B",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000020"
+      },
+      {
+        "name": "switchable-port",
+        "class": "iana-hardware:energy-object",
+        "uuid": "00000000-0000-4000-8000-000000000021"
+      }
+    ]
+  }
+}
